@@ -32,7 +32,7 @@ public class Calculadora {
                     break;
                 case "4":
                     if (num2 != 0) {
-                        resultado = "A divisão é: " + (num1 / (double)num2); // Converte para double para divisão precisa
+                        resultado = "A divisão é: " + (num1 / (double)num2); 
                     } else {
                         resultado = "Não é possível dividir por zero.";
                     }
